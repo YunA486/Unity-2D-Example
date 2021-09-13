@@ -93,7 +93,7 @@ public class PlayerMove : MonoBehaviour
         // Animation
         anim.SetTrigger("doDamaged");
 
-        Invoke("OffDamaged", 3);
+        Invoke("OffDamaged", 3);    // 함수 호출
     }
 
     void OffDamaged()
